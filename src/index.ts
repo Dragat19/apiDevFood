@@ -9,9 +9,13 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Hola mundo Nodejs + TS');
+    res.json({
+        ok: true,
+    });
 });
 
 app.listen(port, ( ) => {
     console.log(`server is listening on ${port}`);
 });
+
+export default app;

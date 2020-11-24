@@ -4,9 +4,8 @@
   "description": "",
   "main": "api/index.js",
   "scripts": {
-    "devStart": "nodemon ./src/index.ts",
-    "start": "tsc && node api/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./src/index.ts",
+    "start": "tsc && node api/index.js"
   },
   "author": "albert",
   "license": "ISC",

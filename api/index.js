@@ -13,7 +13,8 @@ app.use(body_parser_1.default.json());
 app.get('/', (req, res) => {
     res.send('Hola mundo Nodejs + TS');
 });
-app.listen(port, () => {
-    console.log(`server is listening on ${port}`);
-});
+// app.listen(port, ( ) => {
+//     console.log(`server is listening on ${port}`);
+// });
+exports.default = app;
 //# sourceMappingURL=index.js.map
