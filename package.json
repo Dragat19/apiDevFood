@@ -5,8 +5,7 @@
   "main": "api/index.js",
   "scripts": {
     "dev": "nodemon ./src/index.ts",
-    "start": "tsc && node api/index.js",
-    "build": "npm run start --output public"
+    "start": "tsc && node api/index.js"
   },
   "author": "albert",
   "license": "ISC",
