@@ -11,7 +11,7 @@ const port = 3000;
 app.use(cors_1.default());
 app.use(body_parser_1.default.json());
 app.get('/', (req, res) => {
-    res.send('Hola mundo Nodejs + TS');
+    res.send('Hola mundo Nodejs + TS + vamoosssss!!!!!!!!!');
 });
 // app.listen(port, ( ) => {
 //     console.log(`server is listening on ${port}`);
